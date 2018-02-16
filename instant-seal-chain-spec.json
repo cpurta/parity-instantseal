@@ -1,0 +1,53 @@
+{
+    "name": "InstantSealChain",
+    "engine": {
+        "instantSeal": null
+    },
+    "params": {
+        "gasLimitBoundDivisor": "0x400",
+        "accountStartNonce": "0x0",
+        "maximumExtraDataSize": "0x20",
+        "minGasLimit": "0x1",
+        "networkID" : "0x11",
+        "eip150Transition": "0x0",
+        "eip160Transition": "0x0",
+        "eip161abcTransition": "0x0",
+        "eip161dTransition": "0x0",
+        "eip649Reward": "0x29A2241AF62C0000",
+        "eip100bTransition": "0x0",
+        "eip649Transition": "0x0",
+        "eip98Transition": "0xffffffffffffffff",
+        "eip140Transition": "0x0",
+        "eip211Transition": "0x0",
+        "eip214Transition": "0x0",
+        "eip155Transition": "0x0",
+        "eip658Transition": "0x0"
+    },
+    "genesis": {
+        "seal": {
+            "generic": "0x0"
+        },
+        "difficulty": "0x20000",
+        "author": "0x0000000000000000000000000000000000000000",
+        "timestamp": "0x00",
+        "parentHash": "0x0000000000000000000000000000000000000000000000000000000000000000",
+        "extraData": "0x",
+        "gasLimit": "0x632EA0"
+    },
+    "accounts": {
+        "0x0000000000000000000000000000000000000001": { "balance": "1", "builtin": { "name": "ecrecover", "pricing": { "linear": { "base": 3000, "word": 0 } } } },
+        "0x0000000000000000000000000000000000000002": { "balance": "1", "builtin": { "name": "sha256", "pricing": { "linear": { "base": 60, "word": 12 } } } },
+        "0x0000000000000000000000000000000000000003": { "balance": "1", "builtin": { "name": "ripemd160", "pricing": { "linear": { "base": 600, "word": 120 } } } },
+        "0x0000000000000000000000000000000000000004": { "balance": "1", "builtin": { "name": "identity", "pricing": { "linear": { "base": 15, "word": 3 } } } },
+        "0x1f7402f55e142820ea3812106d0657103fc1709e": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0xcb409caa43e385288d6bff2c3a0635688c7b3294": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x5963e46cf9f9700e70d4d1bc09210711ab4a20b4": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x75e912af38888643829380fa9f2c4019f5710ff5": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x83a930a41a1fbc65d65203f9477ca6d1293a4d23": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x830ad8ef8b5b1c7f22fde94ddb30a19b2c34c2c8": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0xd00c280f175a5935b3237b8504c5a8340c5a9fd0": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x4e8463ae7fcd8472357ceebecf20d44635a23873": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x140725c8fafc5b59d93db9a3c86717a2bc365b2d": { "balance": "0xffffffffffffffffffffffffffffffff"},
+        "0x61d3fa79ba54f08dcb850c3dc802b83e3d970552": { "balance": "0xffffffffffffffffffffffffffffffff"}
+    }
+}
