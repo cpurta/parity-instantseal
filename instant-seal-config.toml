@@ -60,12 +60,12 @@ disable = true
 [mining]
 reseal_min_period = 0
 min_gas_price = 1
-# Targeting 6500000 gas per block when sealing a new block.
-gas_floor_target = "6500000"
-# Gas limit will be raised at most by 6500000 gas.
-gas_cap = "6500000"
-# Parity will reject transactions above 6500000 gas.
-tx_gas_limit = "6500000"
+# Targeting 10000000 gas per block when sealing a new block.
+gas_floor_target = "10000000"
+# Gas limit will be raised at most by 10000000 gas.
+gas_cap = "10000000"
+# Parity will reject transactions above 10000000 gas.
+tx_gas_limit = "10000000"
 # Parity will not save local transaction queue to disk.
 no_persistent_txqueue = true
 
